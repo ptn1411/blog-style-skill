@@ -1,0 +1,46 @@
+{
+  "industries": [
+    {
+      "id": "saas",
+      "name": "SaaS / Software",
+      "topics": ["product updates", "feature announcements", "engineering blogs", "API documentation"],
+      "tone": "technical-friendly",
+      "keywords": ["scalability", "integration", "API", "deployment", "microservices"]
+    },
+    {
+      "id": "fintech",
+      "name": "Fintech",
+      "topics": ["security", "compliance", "payment systems", "blockchain"],
+      "tone": "professional-technical",
+      "keywords": ["security", "compliance", "encryption", "transaction", "audit"]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "topics": ["conversion optimization", "checkout flows", "inventory systems", "payment integration"],
+      "tone": "practical-business",
+      "keywords": ["conversion", "cart", "checkout", "inventory", "fulfillment"]
+    },
+    {
+      "id": "devtools",
+      "name": "Developer Tools",
+      "topics": ["CLI tools", "IDE plugins", "debugging", "testing frameworks"],
+      "tone": "technical-conversational",
+      "keywords": ["DX", "productivity", "automation", "workflow", "debugging"]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI / Machine Learning",
+      "topics": ["model training", "MLOps", "prompt engineering", "AI applications"],
+      "tone": "educational-technical",
+      "keywords": ["model", "training", "inference", "prompt", "embedding"]
+    },
+    {
+      "id": "startup",
+      "name": "Startup / Entrepreneurship",
+      "topics": ["MVP development", "scaling challenges", "team building", "fundraising tech"],
+      "tone": "storytelling-pragmatic",
+      "keywords": ["MVP", "pivot", "scale", "growth", "lean"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "tones": [
+    {
+      "id": "friendly",
+      "name": "Friendly",
+      "nameVi": "Thân thiện",
+      "description": "Warm, approachable, like talking to a friend",
+      "markers": ["bạn", "mình", "chúng ta", "nhé", "nha"],
+      "avoid": ["formal honorifics", "passive voice", "jargon without explanation"]
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "nameVi": "Chuyên nghiệp",
+      "description": "Polished, authoritative, suitable for business contexts",
+      "markers": ["chúng tôi", "quý vị", "được khuyến nghị"],
+      "avoid": ["slang", "emojis", "overly casual expressions"]
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "nameVi": "Giáo dục",
+      "description": "Patient, explanatory, assumes reader is learning",
+      "markers": ["hãy nhớ rằng", "điều quan trọng là", "ví dụ như"],
+      "avoid": ["assuming prior knowledge", "skipping steps", "complex jargon"]
+    },
+    {
+      "id": "enthusiastic",
+      "name": "Enthusiastic",
+      "nameVi": "Nhiệt tình",
+      "description": "Energetic, passionate, inspiring action",
+      "markers": ["tuyệt vời", "thú vị", "hãy thử ngay"],
+      "avoid": ["monotone", "excessive caution", "negative framing"]
+    },
+    {
+      "id": "pragmatic",
+      "name": "Pragmatic",
+      "nameVi": "Thực tế",
+      "description": "Direct, focused on practical outcomes and real-world application",
+      "markers": ["thực tế là", "trong production", "kinh nghiệm cho thấy"],
+      "avoid": ["theoretical only", "idealistic assumptions", "ignoring constraints"]
+    }
+  ]
+}

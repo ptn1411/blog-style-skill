@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "paragraphs": {
+      "maxLines": 5,
+      "description": "Keep paragraphs short for readability"
+    },
+    "sentences": {
+      "minWords": 5,
+      "maxWords": 50,
+      "description": "Short to medium sentences for clarity"
+    },
+    "headings": {
+      "hierarchy": ["H1", "H2", "H3"],
+      "h1Count": 1,
+      "minH2Count": 3,
+      "description": "Clear heading hierarchy, one H1 title"
+    },
+    "codeBlocks": {
+      "requireLanguage": true,
+      "maxLines": 50,
+      "description": "Always specify language for syntax highlighting"
+    },
+    "lists": {
+      "maxItems": 10,
+      "description": "Use lists for better scannability"
+    },
+    "images": {
+      "requireAlt": true,
+      "description": "Always include alt text for accessibility"
+    }
+  },
+  "markdown": {
+    "useSemanticBreaks": true,
+    "codeBlockStyle": "fenced",
+    "listStyle": "dash",
+    "emphasisStyle": "asterisk"
+  }
+}

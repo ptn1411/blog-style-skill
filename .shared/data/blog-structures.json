@@ -1,0 +1,62 @@
+{
+  "structures": [
+    {
+      "id": "standard",
+      "name": "Standard Blog",
+      "nameVi": "Blog Chuẩn",
+      "sections": ["introduction", "problem", "approach", "examples", "conclusion"],
+      "sectionsVi": ["Giới thiệu", "Vấn đề thực tế", "Cách tiếp cận", "Ví dụ triển khai", "Kết luận"],
+      "bestFor": ["technical tutorials", "how-to guides", "problem-solving posts"]
+    },
+    {
+      "id": "listicle",
+      "name": "Listicle",
+      "nameVi": "Bài viết dạng danh sách",
+      "sections": ["introduction", "items", "conclusion"],
+      "sectionsVi": ["Giới thiệu", "Danh sách các mục", "Kết luận"],
+      "bestFor": ["tips and tricks", "tool recommendations", "best practices"]
+    },
+    {
+      "id": "case-study",
+      "name": "Case Study",
+      "nameVi": "Nghiên cứu tình huống",
+      "sections": ["background", "challenge", "solution", "results", "lessons"],
+      "sectionsVi": ["Bối cảnh", "Thách thức", "Giải pháp", "Kết quả", "Bài học"],
+      "bestFor": ["success stories", "project retrospectives", "client work"]
+    },
+    {
+      "id": "comparison",
+      "name": "Comparison",
+      "nameVi": "So sánh",
+      "sections": ["introduction", "criteria", "analysis", "recommendation", "conclusion"],
+      "sectionsVi": ["Giới thiệu", "Tiêu chí đánh giá", "Phân tích chi tiết", "Khuyến nghị", "Kết luận"],
+      "bestFor": ["tool comparisons", "framework reviews", "technology choices"]
+    },
+    {
+      "id": "tutorial",
+      "name": "Step-by-Step Tutorial",
+      "nameVi": "Hướng dẫn từng bước",
+      "sections": ["overview", "prerequisites", "steps", "troubleshooting", "next-steps"],
+      "sectionsVi": ["Tổng quan", "Yêu cầu", "Các bước thực hiện", "Xử lý lỗi", "Bước tiếp theo"],
+      "bestFor": ["setup guides", "implementation tutorials", "learning paths"]
+    },
+    {
+      "id": "opinion",
+      "name": "Opinion Piece",
+      "nameVi": "Bài quan điểm",
+      "sections": ["thesis", "arguments", "counterpoints", "conclusion", "call-to-action"],
+      "sectionsVi": ["Luận điểm", "Lập luận", "Phản biện", "Kết luận", "Kêu gọi hành động"],
+      "bestFor": ["thought leadership", "industry commentary", "controversial topics"]
+    },
+    {
+      "id": "comprehensive",
+      "name": "Comprehensive Guide",
+      "nameVi": "Hướng dẫn toàn diện",
+      "sections": ["introduction", "fundamentals", "intermediate", "advanced", "examples", "best-practices", "conclusion"],
+      "sectionsVi": ["Giới thiệu", "Kiến thức cơ bản", "Nâng cao", "Chuyên sâu", "Ví dụ thực tế", "Best Practices", "Kết luận"],
+      "bestFor": ["complete guides", "documentation", "learning resources"],
+      "hasFrontmatter": true,
+      "frontmatterFields": ["title", "excerpt", "category", "tags", "author", "image", "publishDate"]
+    }
+  ]
+}

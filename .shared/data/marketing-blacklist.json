@@ -1,0 +1,58 @@
+{
+  "categories": {
+    "superlatives": {
+      "description": "Exaggerated claims of superiority",
+      "phrases": [
+        "số 1", "tốt nhất", "hoàn hảo", "đỉnh cao", "không thể tin được",
+        "tuyệt vời nhất", "xuất sắc nhất", "hàng đầu", "duy nhất", "độc nhất vô nhị",
+        "best", "perfect", "ultimate", "unbeatable", "world-class"
+      ]
+    },
+    "hypeWords": {
+      "description": "Overhyped buzzwords without substance",
+      "phrases": [
+        "cách mạng", "đột phá", "siêu việt", "phi thường", "thần kỳ",
+        "kỳ diệu", "bùng nổ", "viral", "game-changer", "disruptive",
+        "revolutionary", "groundbreaking", "paradigm shift"
+      ]
+    },
+    "emptyPromises": {
+      "description": "Unverifiable guarantees",
+      "phrases": [
+        "đảm bảo thành công", "chắc chắn hiệu quả", "không thể thất bại",
+        "100% hiệu quả", "cam kết kết quả", "đảm bảo 100%",
+        "guaranteed results", "never fails", "always works"
+      ]
+    },
+    "urgencyPhrases": {
+      "description": "Artificial urgency tactics",
+      "phrases": [
+        "ngay bây giờ", "đừng bỏ lỡ", "cơ hội cuối cùng", "chỉ còn hôm nay",
+        "nhanh tay", "số lượng có hạn", "ưu đãi đặc biệt",
+        "act now", "limited time", "don't miss out"
+      ]
+    },
+    "vagueQualifiers": {
+      "description": "Vague intensifiers without meaning",
+      "phrases": [
+        "rất nhiều", "cực kỳ", "vô cùng", "siêu", "mega", "khủng", "đỉnh", "max",
+        "extremely", "incredibly", "amazingly", "super"
+      ]
+    },
+    "salesLanguage": {
+      "description": "Direct sales/marketing language",
+      "phrases": [
+        "mua ngay", "đăng ký ngay", "click here", "free trial",
+        "giảm giá sốc", "khuyến mãi khủng", "deal hot",
+        "buy now", "sign up today", "exclusive offer"
+      ]
+    },
+    "techBuzzwords": {
+      "description": "Overused tech marketing terms",
+      "phrases": [
+        "ai-powered", "next-gen", "cutting-edge", "state-of-the-art",
+        "enterprise-grade", "military-grade", "blockchain-enabled"
+      ]
+    }
+  }
+}

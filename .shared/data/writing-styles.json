@@ -1,0 +1,58 @@
+{
+  "styles": [
+    {
+      "id": "conversational",
+      "name": "Conversational",
+      "nameVi": "Gần gũi",
+      "description": "Write like talking to a colleague, friendly and approachable",
+      "characteristics": ["informal tone", "use questions", "personal pronouns", "short sentences"],
+      "bestFor": ["tutorials", "personal blogs", "developer stories"],
+      "example": "Bạn đã bao giờ gặp bug mà debug cả ngày không ra chưa? Mình cũng vậy..."
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "nameVi": "Kỹ thuật",
+      "description": "Precise, detailed, focused on accuracy and completeness",
+      "characteristics": ["precise terminology", "code examples", "step-by-step", "references"],
+      "bestFor": ["documentation", "API guides", "architecture posts"],
+      "example": "WebSocket protocol enables full-duplex communication channels over a single TCP connection..."
+    },
+    {
+      "id": "storytelling",
+      "name": "Storytelling",
+      "nameVi": "Kể chuyện",
+      "description": "Narrative-driven, engaging readers through stories and experiences",
+      "characteristics": ["narrative arc", "real examples", "emotional hooks", "lessons learned"],
+      "bestFor": ["case studies", "postmortems", "career advice"],
+      "example": "Năm 2019, team mình deploy feature mới lên production lúc 5h chiều thứ 6..."
+    },
+    {
+      "id": "analytical",
+      "name": "Analytical",
+      "nameVi": "Phân tích",
+      "description": "Data-driven, comparing options with pros/cons analysis",
+      "characteristics": ["comparisons", "metrics", "trade-offs", "recommendations"],
+      "bestFor": ["technology comparisons", "decision guides", "reviews"],
+      "example": "So sánh 3 state management libraries: Redux vs MobX vs Zustand..."
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
+      "nameVi": "Hướng dẫn",
+      "description": "Step-by-step instructional content with clear outcomes",
+      "characteristics": ["numbered steps", "prerequisites", "code snippets", "expected results"],
+      "bestFor": ["how-to guides", "setup guides", "learning paths"],
+      "example": "Bước 1: Cài đặt dependencies\nBước 2: Cấu hình environment..."
+    },
+    {
+      "id": "opinion",
+      "name": "Opinion",
+      "nameVi": "Quan điểm",
+      "description": "Personal perspective with strong viewpoints backed by experience",
+      "characteristics": ["clear stance", "supporting arguments", "counterpoints", "call to action"],
+      "bestFor": ["thought leadership", "industry commentary", "best practices"],
+      "example": "Theo mình, microservices không phải silver bullet. Đây là lý do..."
+    }
+  ]
+}
