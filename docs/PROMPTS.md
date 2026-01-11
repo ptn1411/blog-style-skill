@@ -196,7 +196,78 @@ QUAN TRỌNG - Tuân thủ nghiêm ngặt:
 
 ---
 
-## 📋 Template Prompts
+## 📄 Sử dụng Template có sẵn
+
+### Template: `blog_template_with_frontmatter.md`
+
+Template này có sẵn trong `templates/` với đầy đủ frontmatter và 5 sections.
+
+#### Prompt đơn giản
+
+```
+Viết blog về [CHỦ ĐỀ] theo template: templates/blog_template_with_frontmatter.md
+Lưu vào: examples/[ten-file].md
+```
+
+#### Prompt chi tiết
+
+```
+Viết blog về "[CHỦ ĐỀ]" sử dụng template blog_template_with_frontmatter.md
+
+Thay thế các placeholder:
+- TITLE: [Tiêu đề SEO 50-60 ký tự]
+- EXCERPT: [Mô tả 150-160 ký tự]
+- CATEGORY: [Category]
+- TAGS: [tag1, tag2, tag3, tag4, tag5]
+- AUTHOR: "Phạm Thành Nam"
+- IMAGE: /images/[ten-anh].jpg
+- PUBLISH_DATE: [YYYY-MM-DD]
+
+Lưu vào: examples/[slug].md
+```
+
+#### Ví dụ cụ thể
+
+```
+Viết blog về "React Query cho Beginners" sử dụng template blog_template_with_frontmatter.md
+
+Frontmatter:
+- TITLE: "React Query cho Beginners: Quản lý Server State Đơn Giản"
+- EXCERPT: "Hướng dẫn sử dụng React Query để fetch, cache và sync data từ server một cách hiệu quả"
+- CATEGORY: React
+- TAGS: react, react-query, tanstack-query, data-fetching, hooks
+- AUTHOR: "Phạm Thành Nam"
+- PUBLISH_DATE: 2026-01-11
+
+Sections:
+- Section 1: Tại sao cần React Query?
+- Section 2: Cài đặt và Setup
+- Section 3: useQuery cơ bản
+- Section 4: useMutation và cập nhật data
+- Section 5: Caching và Invalidation
+
+Lưu vào: examples/react-query-cho-beginners.md
+```
+
+#### Các placeholder trong template
+
+| Placeholder | Mô tả |
+|-------------|-------|
+| `{{TITLE}}` | Tiêu đề bài viết |
+| `{{EXCERPT}}` | Mô tả ngắn (SEO) |
+| `{{CATEGORY}}` | Danh mục |
+| `{{TAGS}}` | Tags (YAML list) |
+| `{{AUTHOR}}` | Tên tác giả |
+| `{{IMAGE}}` | Đường dẫn ảnh cover |
+| `{{PUBLISH_DATE}}` | Ngày publish (YYYY-MM-DD) |
+| `{{INTRODUCTION}}` | Đoạn mở đầu |
+| `{{SECTION_X_TITLE}}` | Tiêu đề section X (1-5) |
+| `{{SECTION_X_CONTENT}}` | Nội dung section X (1-5) |
+| `{{CONCLUSION}}` | Kết luận |
+
+---
+
+## 📋 Template Prompts (Viết tay)
 
 ### Template 1: Blog chuẩn
 
